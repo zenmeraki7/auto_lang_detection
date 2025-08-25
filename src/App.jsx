@@ -6,10 +6,10 @@ import { useTranslation, } from "react-i18next"; // hook for using i18n
 function App() {
 
 
-  // useTranslation gives us:
+    //  Destructure useTranslation hook
   // t = function to translate text
-  // i18n = i18n instance (if you want to manually change language)
-  const { t, } = useTranslation()
+
+  const { t } = useTranslation()
 
   
 
